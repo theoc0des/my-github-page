@@ -1,14 +1,14 @@
 ﻿body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
+    font-family: Raleway Semibold;
+    color: black;
+    background-color: #a99c81;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #565449;
+    color: black;
     padding: 20px;
     text-align: center;
 }
@@ -16,8 +16,8 @@ header h1 {
         margin: 0;
     }
 nav a {
-    color: white;
-    text-decoration: none;
+    color: black;
+    text-decoration: Semibold;
     margin: 0 10px;
 } 
 nav a:hover {
@@ -32,14 +32,15 @@ main {
 
 
 main img {
-    max-width: 100%;
-    height: auto;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
     display: block;
     margin: 20px 0;
 }
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #565449;
+    color: #11120D;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -50,19 +51,38 @@ p {
     font-size: 1.1em;
 }
 a {
-    color: #4CAF50;
+    color: floralwhite;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 img {
-    border: 5px solid #4CAF50;
+    border: 5px solid black;
     border-radius: 10px;
 }
 main a[href^="mailto:"] {
-    color: #ff5722;
+    color: hsl(0, 17%, 13%);
     font-weight: bold;
 } 
-
-
+a.btn {
+    background-color: #565449;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a.btn:hover {
+    background-color: #11120D;
+}
+.card {
+    background-color: #565449;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+body, html {
+    height: 100%;
+}
